@@ -7,7 +7,7 @@ function getIt(){
 
 function frameIt(){
   $(".tasty").on("load",function(img){
-    $("img").style.border ="red"
+    $(".tasty").style.border ="red"
   })
 }
 
