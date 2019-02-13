@@ -16,7 +16,7 @@ describe('Selectors', () => {
 
     img.trigger('load');
 
-    expect(img.attr("img")).toEqual("tasty");
+    expect(img.attr("tasty")).toEqual("tasty");
   });
 
   describe('pressIt()', () => {
